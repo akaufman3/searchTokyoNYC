@@ -1,0 +1,81 @@
+html, body {
+			margin:0;
+			padding:0;
+			font-size: 100%; /* sets to the browser's default font size */
+			display: block;
+}
+
+html, body {
+			height: 100%;
+			max-width: 1200px;
+			margin:0 auto; /* centers all content */
+			font-family: Verdana;
+			text-align: left;
+			color: #C9960C;
+			background: black;
+			}
+			
+h1 {
+color: #FF00FF;
+}
+
+
+#text_box {
+color: #00FF00;
+background-color: black;
+border: 1px solid #FFCC00 ;
+}
+
+#searchTokyo_box {
+color: #00FF00;
+background-color: black;
+border: 1px solid #FFCC00 ;
+}
+
+#searchNYC_box {
+color: #00FF00;
+background-color: black;
+border: 1px solid #FFCC00 ;
+}
+
+#tokyo {
+font-size: 200%;
+float: left;
+color: #00FF00;
+font-style: strong; 
+margin-left: 175px; 
+}
+
+#nyc {
+font-size: 200% ;
+float: right;
+color: #00FF00;
+font-style: strong;
+margin-right: 325px; 
+}
+
+#main_container {
+padding-top: 5px;
+width:1100px; 
+height:auto;
+clear: both;
+}
+
+#tokyo_box { 
+	width:500px; 
+	height:auto;
+	float: left;
+	border: 1px solid #C9960C;
+	}
+	
+#nyc_box {
+	width:500px; 
+	height:auto;
+	float: right;
+	border: 1px solid #C9960C;
+	}
+	
+h3 {
+	display: inline;
+	}
+	
