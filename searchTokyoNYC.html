@@ -1,0 +1,47 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="searchTokyoNYC.css">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+</head>
+
+<body>
+
+<h1>TYPE IN A KEYWORD:</h1>
+
+<div>
+<p>SEARCH TOKYO AND NYC</p>
+<input id="text_box" type="text">
+<button onclick="search()" type="submit">Search</button>
+</div>
+
+<h1> OR SEARCH TWO SEPARATE KEYWORDS:</h1>
+<div>
+<p>SEARCH TOKYO</p>
+<input id="searchTokyo_box" type="text">
+<button onclick="searchTokyo()" type="submit">Search</button>
+</div>
+
+<div>
+<p>SEARCH NEW YORK</p>
+<input id="searchNYC_box" type="text">
+<button onclick="searchNYC()" type="submit">Search</button>
+</div>
+
+<h3 id="tokyo">TOKYO</h3>
+<h3 id ="nyc">NYC</h3>
+
+<div id = "main_container">
+
+	<div id="tokyo_box">
+	</div>
+
+	<div id="nyc_box">
+	</div>
+
+</div>
+
+<script src="searchTokyoNYC.js"></script>
+</body>
+</html>
